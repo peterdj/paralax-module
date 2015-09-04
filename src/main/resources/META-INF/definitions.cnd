@@ -1,0 +1,10 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jnt:paralaxSection] > jmix:structuredContent
+ - image (weakreference, picker[type='image'])
+ - cssImageName (string) itemtype = content
+ - header (string)
+ - content (string, richtext)
+ - subHeader (string)
+
