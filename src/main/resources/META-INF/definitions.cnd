@@ -5,6 +5,6 @@
  - image (weakreference, picker[type='image'])
  - cssImageName (string) itemtype = content
  - header (string)
- - content (string, richtext)
+ - content (string, textarea)
  - subHeader (string)
 
