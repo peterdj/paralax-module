@@ -5,6 +5,7 @@
  - image (weakreference, picker[type='image'])
  - cssImageName (string) itemtype = content
  - header (string)
- - content (string, textarea)
  - subHeader (string)
+ - content (string, textarea)
+ + someNode (jmix:basemetadata, nt:base) = jmix:hiddenType autocreated
 
