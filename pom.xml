@@ -82,11 +82,11 @@
   <artifactId>paralaxsections</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
-  <name>paralaxSections</name>
+  <name>paralaxSection</name>
   <description>This is the custom module (paralaxSections) for running on a Digital Factory server.</description>
   <scm>
-    <connection>scm:git:git@github.com:peterdj/paralax-module.git</connection>
-    <developerConnection>scm:git:git@github.com:peterdj/paralax-module.git</developerConnection>
+    <connection>scm:git:https://github.com/peterdj/paralax-module</connection>
+    <developerConnection>scm:git:https://github.com/peterdj/paralax-module</developerConnection>
   </scm>
   <repositories>
     <repository>

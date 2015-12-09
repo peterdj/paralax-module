@@ -7,5 +7,4 @@
  - header (string)
  - subHeader (string)
  - content (string, textarea)
- + someNode (jmix:basemetadata, nt:base) = jmix:hiddenType autocreated
 

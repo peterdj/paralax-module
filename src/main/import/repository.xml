@@ -10,17 +10,7 @@
                 <sources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
                   jcr:primaryType="jnt:moduleVersionFolder"
                   j:staticMountPointProviderKey="module-paralaxsections-1.0-SNAPSHOT">
-                    <src jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                        <main jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                            <resources jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:folder">
-                                <jnt_paralaxSection jcr:primaryType="jnt:nodeTypeFolder">
-                                    <html jcr:primaryType="jnt:templateTypeFolder">
-                                        <paralaxSection.jsp jcr:primaryType="jnt:viewFile"/>
-                                    </html>
-                                </jnt_paralaxSection>
-                            </resources>
-                        </main>
-                    </src>
+                    <pom.xml jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:xmlFile"/>
                 </sources>
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
