@@ -85,8 +85,8 @@
   <name>paralaxSection</name>
   <description>This is the custom module (paralaxSections) for running on a Digital Factory server.</description>
   <scm>
-    <connection>scm:git:https://github.com/peterdj/paralax-module</connection>
-    <developerConnection>scm:git:https://github.com/peterdj/paralax-module</developerConnection>
+    <connection>scm:git:git@github.com:peterdj/paralax-module.git</connection>
+    <developerConnection>scm:git:git@github.com:peterdj/paralax-module.git</developerConnection>
   </scm>
   <repositories>
     <repository>

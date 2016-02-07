@@ -19,13 +19,14 @@
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
 <c:set var="backgroundImage" value="${currentNode.properties['image']}"/>
-<c:set var="cssImageName" value="${currentNode.properties['cssImageName'].string}"/>
+<c:set var="backgroundImageName" value="${backgroundImage.node.name}" />
+<c:set var="imageNamePart" value="${fn:substringBefore(backgroundImageName,'.')}"/>
 <style>
-  #${cssImageName} {
+  #${imageNamePart} {
   	background-image:url("${backgroundImage.node.url}");
   }
 </style>
-<section class="module parallax parallax-image" id="${cssImageName}">
+<section class="module parallax parallax-image" id="${imageNamePart}">
   <div class="container">
     <h1>${currentNode.properties['header'].string}</h1>
   </div>
@@ -37,7 +38,7 @@
   </div>
 </section>
 <style type="css">
-  section.module.${cssImageName} {
+  section.module.${imageNamePart} {
     background-image: url("${backgroundImage.node.url}"); 
   }
 </style>

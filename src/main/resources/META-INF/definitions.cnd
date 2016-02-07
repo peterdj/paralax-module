@@ -3,7 +3,6 @@
 
 [jnt:paralaxSection] > jmix:structuredContent
  - image (weakreference, picker[type='image'])
- - cssImageName (string) itemtype = content
  - header (string)
  - subHeader (string)
  - content (string, textarea)
