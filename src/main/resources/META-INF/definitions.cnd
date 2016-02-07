@@ -2,7 +2,7 @@
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 
 [jnt:paralaxSection] > jmix:structuredContent
- - image (weakreference, picker[type='image'])
+ - image (weakreference, picker[type='image']) mandatory noqueryorder nofulltext
  - header (string)
  - subHeader (string)
  - content (string, textarea)
